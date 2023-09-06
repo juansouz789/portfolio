@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    
+        <header>
+            <div class="icones">
+                <span class="material-icons" id="burguer" onclick="clickmenu()">menu</span>
+                <div id="logo"><i class="fa-solid fa-j"></i></div>
+                <h1>Desenvolvedor Front-end</h1>
+            </div>
+            
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Currículo</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <button>Meu contato</button>
+                </ul>
+                
+            </menu>
+            
+            
+        </header>
+    <main>
+        <div class="back">
+            <img src="imagens/trilha.jpeg" alt="">
+        </div>
+        <div class="texto">
+            <h3>Olá, pessoal</h3>
+            <h1><span>Eu sou</span> Juan Souza</h1>
+            <p>Aqui você será guiado para as principais informações sobre mim.</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/juansci1909/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/juan-souza-89b335226/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/juansouz789" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </main>
+
+    <script>
+        function clickmenu(){
+            if(itens.style.display=='none'){
+                itens.style.display='flex'
+                
+            } else{
+                itens.style.display='none'
+            }
+        }
+    </script>
+</body>
+</html>

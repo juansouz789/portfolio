@@ -10,7 +10,8 @@
 }
 html, body{
    background-image: linear-gradient(#464646,#D8D8D8,#F9F9F9);
-   
+   max-height: 100%;
+
 }
 header{
     display: flex;
@@ -52,7 +53,7 @@ header{
     cursor: pointer;
 }
 #logo i:hover{
-    color: black;
+    color: white;
     transition: 0.5s;
 }
 .icones h1{

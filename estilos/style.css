@@ -127,10 +127,9 @@ img{
     justify-content: center;
     align-items: center;
     gap: 4.5em;
+    padding-bottom: 2em;
 }
 .redes a{
     color: black;
     font-size: 2.4em;
-    height: 0px;
-    margin-bottom: 2em;
 }

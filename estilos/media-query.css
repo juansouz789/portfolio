@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    #burguer{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    menu ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        padding-right: 2.5em;
+        padding-top: 10px;
+    }
+    #logo{
+        padding: 0;
+        margin: 0;
+        padding-left:3.8em;
+        padding-top: 10px;
+    }
+    .icones{
+        align-items: center;
+        gap: 3em;
+    }
+    .icones h1{
+        display: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .texto{
+        text-align: center;
+    }
+    #tit{
+        display: block;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.83);
+        text-align: center;
+        padding-top: -2em;
+        padding-bottom: 1em;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .texto{
+        text-align: center;
+    }
+}

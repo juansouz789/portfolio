@@ -30,9 +30,6 @@
     }
     .icones h1{
         display: none;
-        padding: 0;
-        margin: 0;
-        padding-top: 10px;
     }
     .texto{
         text-align: center;
@@ -52,5 +49,8 @@
 @media screen and (min-width:600px) {
     .texto{
         text-align: center;
+    }
+    #tit{
+        display: none;
     }
 }

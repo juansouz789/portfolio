@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@media screen and (max-width:992px) {
+    article{
+        width: 100%;
+    }
+    article p{
+        text-align:left;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    header button{
+        font-size: 15px;
+        width: 90px;
+        border-radius: 35px;
+    }
+    .juntos{
+        margin-left: -40px;
+        gap: 4.5em;
+    }
+}
